@@ -1,0 +1,32 @@
+Thực thể
+
+1. Loại sách {
+	Mã loại sách,
+	Tên loại sách
+}
+
+2. Sách {
+	Mã sách,
+	Tiêu đề,
+	NXB,
+	Tác giả,
+	Số trang,
+	Số lượng bản sao,
+	Giá tiền,
+	Ngày nhập kho,
+	Vị trí đặt sách,
+	Mã loại sách
+}
+
+3. Sinh viên {
+	Tên sinh viên,
+	Mã sinh viên,
+	Ngày hết hạn,
+	Chuyên ngành học,
+	Mã lớp
+}
+
+4. Lớp {
+	Mã lớp,
+	Tên lớp
+}

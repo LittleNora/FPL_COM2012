@@ -1,0 +1,6 @@
+
+- Khóa chính là thuộc tính duy nhất trong bảng
+	(Mã của thực thể luôn luôn là khóa chính)
+
+- Khóa ngoại tham chiếu tới khóa chính
+	(QH 1-N: Chữ N nằm ở bên nào thì khóa ngoại nằm bên đó)

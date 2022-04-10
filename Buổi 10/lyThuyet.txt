@@ -1,0 +1,11 @@
+Một số nguyên tắc đặt tên csdl, tên bảng, tên trường:
+- Không bao giờ được phép đặt tên tiếng Việt, không được phép
+sử dụng dấu cách, không đực phép sử dụng ký tự đặc biệt
+- Nếu muốn đặt theo kiểu cách ra để tên có nghĩa sẽ thay
+bằng dấu "_"
+	VD: loai_san_pham
+- Tên của csdl/Bảng/Trường thì được sử dụng in hoa hoặc in
+thường nhưng đã chọn in hoa thì phải sử dụng toàn bộ in hoa,
+hoặc đã chọn in thường thì phải sử dụng toàn bộ in thường
+cho hợp lệ
+	

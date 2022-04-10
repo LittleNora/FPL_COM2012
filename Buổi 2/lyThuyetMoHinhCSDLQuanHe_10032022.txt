@@ -1,0 +1,11 @@
+
+Mô hình cơ sở dữ liệu quan hệ:
+- Dữ liệu trong cơ sở dữ liệu được lưu trữ trong các bảng
+- Những đối tượng chung sẽ được chuyển hóa thành một bảng trong CSDL
+- Thông tin của đối tượng cụ thể có nghĩa là dữ liệu trong 1 bảng
+
+- Bảng gồm hàng và cột:
+	+ Cột được gọi là các trường trong bảng, là những cấu trúc
+	để hình thành lên bảng
+	+ Hàng được gọi là bản ghi (record), mỗi một bản ghi được
+	thể hiện một dữ liệu của bảng

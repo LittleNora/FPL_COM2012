@@ -1,0 +1,56 @@
+Thực thể
+
+1. Loại sản phẩm {
+	Mã loại,
+	Tên loại
+}
+
+2. Sản phẩm {
+	Mã sản phẩm,
+	Tên sản phẩm,
+	Loại sản phẩm,
+	Giá,
+	Số lượng
+}
+
+3. Khách hàng {
+	Mã khách hàng,
+	Họ tên,
+	Địa chỉ,
+	Sđt
+}
+
+4. Khuyến mãi {
+	Mã khuyến mãi,
+	Giá trị khuyến mãi
+}
+
+
+a. Khóa học {
+	Mã khóa học,
+	Tên khóa học,
+	Giá,
+	Thời gian
+}
+
+b. Lớp {
+	Mã lớp,
+	Tên lớp
+}
+
+c. Học viên {
+	Mã học viên,
+	Họ tên,
+	Địa chỉ
+}
+
+d. Giảng viên {
+	Mã giảng viên,
+	Họ tên,
+	Địa chỉ
+}
+
+e. Khuyến mãi {
+	Mã khuyến mãi,
+	Nội dung khuyến mãi
+}

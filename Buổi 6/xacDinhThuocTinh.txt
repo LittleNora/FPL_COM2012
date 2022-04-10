@@ -1,0 +1,26 @@
+
+5 thuộc tính đơn
+1. Tên sản phẩm
+2. Số lượng
+3. Giá
+4. Nhà sản xuất
+5. Trạng thái
+
+
+2 thuộc tính kết hợp
+1. Ngày sản xuất
+2. Xuất xứ
+
+
+5 thuộc tính đa trị
+1. Môn học
+2. Lớp
+3. Email
+4. Cơ sở học
+5. CLB
+6. Năm tốt nghiệp dự kiến
+
+7. Giá
+8. Số lượng
+
+9. Lương

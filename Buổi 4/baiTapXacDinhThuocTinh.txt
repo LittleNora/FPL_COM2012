@@ -1,0 +1,50 @@
+Xác định thuộc tính mang tính chất ứng dụng của những tập thực
+thể sau:
+
+1. Phương tiện {
+	Mã phương tiện,
+	Tên phương tiện,
+	Loại phương tiện,
+	Hãng sản xuất,
+	Năm sản xuất,
+	Xuất xứ
+}
+
+2. Bác sĩ {
+	Mã,
+	Họ tên,
+	Giới tính,
+	Ngày sinh,
+	Địa chỉ,
+	Chức vụ / Khoa phụ trách
+}
+
+3. Giảng viên {
+	Mã giảng viên,
+	Họ tên,
+	Giới tính,
+	Ngày sinh,
+	Địa chỉ,
+	Chức vụ / Bộ môn giảng dạy,
+	Năm giảng dạy
+}
+
+4. Căn hộ {
+	Chủ sở hữu,
+	Giá,
+	Địa chỉ,
+	Trạng thái,
+	Diện tích,
+	Cơ sở vật chất
+}
+
+5. Sản phẩm {
+	Mã sản phẩm,
+	Tên sản phẩm,
+	Giá,
+	Số lượng,
+	Xuất xứ,
+	Hãng sản xuất,
+	Nhà phân phối,
+	Ngày sản xuất
+}
