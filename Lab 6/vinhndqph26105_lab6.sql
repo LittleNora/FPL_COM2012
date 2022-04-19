@@ -103,3 +103,12 @@ from khach_hang
     inner join san_pham on san_pham.ma_san_pham = hoa_don_chi_tiet.ma_san_pham
 where
     (khach_hang.dia_chi like '%Đà Nẵng%' and san_pham.ten_san_pham like '%Iphone 7 32GB' and year(hoa_don.ngay_mua_hang) = 2016 and month(hoa_don.ngay_mua_hang) = 12)
+
+-- e. Hiển thị tên sản phẩm có lượt đặt mua nhỏ hơn lượt mua trung bình các sản phẩm
+select
+    san_pham.ten_san_pham
+from san_pham
+    inner join hoa_don_chi_tiet on hoa_don_chi_tiet.ma_san_pham = san_pham.ma_san_pham
+group by san_pham.ma_san_pham, san_pham.ten_san_pham
+having count(*) < (select avg(hoa_don_chi_tiet.so_luong)
+from hoa_don_chi_tiet)
